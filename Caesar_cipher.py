@@ -46,8 +46,10 @@ def change_alp(alp):
 
 content = input('write your content : ')
 
-char_list = list(content)
+upper_content = content.upper()
+char_list = list(upper_content)
 new_list = []
+
 for i in char_list:
     new_content = change_alp(i)
     new_list.append(new_content)
